@@ -23,18 +23,10 @@ os.environ["ANTHROPIC_API_KEY"] = os.getenv("ANTHROPIC_API_KEY")
 embeddings = HuggingFaceEmbeddings()
 
 # Define file paths
-# file_paths = [
-#     "c:/Users/MattLuzzi/rag/data.txt",
-#     "c:/Users/MattLuzzi/rag/data2.txt",
-#     "c:/Users/MattLuzzi/rag/data3.txt"
-# ]
-
-# file_paths = [
-#     "/mnt/c/Users/MattLuzzi/rag/MSN8830.txt"
-# ]
-
 file_paths = [
-    "/data/MSN8830.txt"
+    "/data/data.txt",
+    "/data/data2.txt",
+    "/data/data3.txt"
 ]
 
 # Load content from multiple files
